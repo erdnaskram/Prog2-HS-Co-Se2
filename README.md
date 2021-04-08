@@ -6,7 +6,7 @@
     <div class="inhalt_box">
             <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt="Arbeitsplatz mit Laptops">
             <h2>Repository:</h2>
-            <p>Das ist mein privates Repository zur Bearbeitung aller Aufgaben in Prog1, 
+            <p>Das ist mein privates Repository zur Bearbeitung aller Aufgaben in Prog2, 
                 eine Änderung von Dritten ist ausdrücklich NICHT gewünscht.</p>
             <p>This is a private repository only for Students of the Hochschule Coburg, please DONT change anything.</p>
             <h2>Anmerkungen:</h2>
