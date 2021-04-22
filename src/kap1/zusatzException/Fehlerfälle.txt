@@ -1,0 +1,14 @@
+1)  Falsche Zeichenanzahl
+    a)  mehr als 2 Zeichen
+    b)  weniger als 2 Zeichen
+
+2)  Invalide Zeichen
+    a)  Sonderzeichen (" ","§","!" ...)
+    b)  "0","9"
+    c)  "i"-"z","A"-"Z","ä"-"ü","Ä"-"Ü"
+
+3)  Falsches Format
+    a)  Zahl an erster Stelle -> "11"
+    b)  Buchstabe an zweiter Stelle -> "aa"
+
+4)  jede Erdenkliche Kombination der Oben genannten Fehler
