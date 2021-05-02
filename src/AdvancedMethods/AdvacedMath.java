@@ -18,6 +18,10 @@ public class AdvacedMath {
         return result;
     }
 
+    public static double pow(double i, double n){
+        return Math.pow(i,n);
+    }
+
 
 
 }
