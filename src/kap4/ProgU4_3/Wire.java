@@ -16,11 +16,6 @@ public class Wire implements Mobile{
 
     @Override
     public void balance (){
-//        while (mobile1.weight() * länge1 != mobile2.weight() * länge2) {
-//            double div = (mobile1.weight() * länge1 - mobile2.weight() * länge2) / 2;
-//            länge1 -= div;
-//            länge2 += div;
-//        }
         double gesLänge = (länge1 + länge2);
         länge1 = gesLänge * mobile2.weight() / (mobile1.weight() + mobile2.weight());
         länge2 = gesLänge * mobile1.weight() / (mobile1.weight() + mobile2.weight());
