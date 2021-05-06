@@ -21,4 +21,11 @@ public class Star implements Mobile{
     public void balance() {
         System.out.println("test");
     }
+
+    @Override
+    public String toString() {
+        return "Star{" +
+                "weight=" + weight +
+                '}';
+    }
 }
