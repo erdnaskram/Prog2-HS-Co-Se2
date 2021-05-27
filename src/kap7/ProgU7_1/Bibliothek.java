@@ -13,8 +13,8 @@ public class Bibliothek {
         this.coll = coll;
     }
 
-    public boolean einfügen(@NotNull Book book) {
-        if (sucheNachISBN(book.getISBN()) == null){
+    public boolean einfügen(Book book) {
+        if (book != null){
             coll.add(book);
             return true;
         } else {

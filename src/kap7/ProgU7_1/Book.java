@@ -5,7 +5,7 @@ public class Book implements Comparable<Book> {
     protected final String isbn;
     protected final String title;
 
-    public Book(String autor, String isbn, String title) {
+    public Book(String autor, String title, String isbn) {
         this.autor = autor;
         this.isbn = isbn;
         this.title = title;
