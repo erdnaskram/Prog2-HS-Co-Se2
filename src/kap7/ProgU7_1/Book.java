@@ -60,6 +60,6 @@ public class Book implements Comparable<Book> {
 
     @Override
     public String toString() {
-        return this.title + ", " + this.isbn;
+        return this.getAutor() + " \"" + this.title + "\" ISBN:" + this.isbn;
     }
 }
