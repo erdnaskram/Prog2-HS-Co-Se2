@@ -1,8 +1,9 @@
 package kap6.ProgU6_2;
 
 public abstract class Kleidungsstück implements Artikel {
-	enum Farbe {SCHWARZ, GRÜN, ROT, BLAU, GRAU};
-	protected final int groesse;
+	enum Farbe {SCHWARZ, GRÜN, ROT, BLAU, GRAU}
+
+    protected final int groesse;
 	protected final Farbe farbe;
 	protected String 	bezeichnung;
 	protected String artNr;

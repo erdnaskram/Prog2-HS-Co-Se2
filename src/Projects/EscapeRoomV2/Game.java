@@ -5,7 +5,7 @@ import Projects.EscapeRoomV2.rooms.ProgOneRoom.Texte;
 
 public class Game
 {
-    private EscapeRoom myRoom;
+    private final EscapeRoom myRoom;
 
     /**
      * Das Objekt vom Typ Game wird benutzt um einen Escaperoom zu initialisieren

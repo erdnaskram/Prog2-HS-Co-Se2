@@ -3,7 +3,7 @@ package kap6.ProgU6_2;
 
 public class Jacke extends Kleidungsstück {
 	
-	private static String  typId="777777";
+	private static final String  typId="777777";
 	protected int wassersaeule;
 
 	

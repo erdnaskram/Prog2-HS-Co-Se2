@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class Bibliothek {
 
-    private Collection<Book> coll;
+    private final Collection<Book> coll;
 
     public Bibliothek(Collection<Book> coll){
         this.coll = coll;

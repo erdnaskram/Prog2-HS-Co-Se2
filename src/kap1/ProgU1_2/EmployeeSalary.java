@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 
 public class EmployeeSalary {
 
-    private int empNumber;
+    private final int empNumber;
     private int empHourSalary;
     private int empWeeklyHours;
 

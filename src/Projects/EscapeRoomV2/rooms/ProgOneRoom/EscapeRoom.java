@@ -5,12 +5,12 @@ import Projects.EscapeRoomV2.InOut;
 public class EscapeRoom
 {
     // die Eigenschaften
-    private String startText;
-    private int[] riddleNumbers;
+    private final String startText;
+    private final int[] riddleNumbers;
     // private String[] loesungen;
-    private InOut Schnittstelle;
+    private final InOut Schnittstelle;
     // private String finalPswd;
-    private Riddle myRiddle;
+    private final Riddle myRiddle;
 
     /**
      * Im Konstruktor wird ein Objekt vom Typ Riddle erzeugt. Diesem wird der Start

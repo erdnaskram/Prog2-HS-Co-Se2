@@ -2,8 +2,8 @@ package kap2.ProgU2_2;
 
 public class Karte implements Comparable<Karte>{
 
-    private Farbe farbe;
-    private Wert wert;
+    private final Farbe farbe;
+    private final Wert wert;
 
     public Karte(Farbe farbe, Wert wert) {
         this.farbe = farbe;

@@ -35,12 +35,8 @@ public class Book implements Comparable<Book> {
             return false;
         }
         Book temp = (Book) anotherBook;
-        if (!this.autor.equalsIgnoreCase(temp.autor) || !this.isbn.equalsIgnoreCase(temp.isbn)
-                || !this.title.equalsIgnoreCase(temp.title)) {
-            return false;
-        }
-
-        return true;
+        return this.autor.equalsIgnoreCase(temp.autor) && this.isbn.equalsIgnoreCase(temp.isbn)
+                && this.title.equalsIgnoreCase(temp.title);
     }
 
     @Override

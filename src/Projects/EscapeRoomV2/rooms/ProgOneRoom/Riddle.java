@@ -6,7 +6,7 @@ import Projects.EscapeRoomV2.InOut;
 
 public class Riddle
 {
-    private InOut Schnittstelle;
+    private final InOut Schnittstelle;
 
     /**
      * Im Konstruktor wird ein Objekt vom Typ Riddle erzeugt. Diesem wird die
@@ -141,7 +141,6 @@ public class Riddle
                     pos = rn.nextInt(6);
                 } while (raetsel[pos] != null);
                 raetsel[pos] = orginal[i];
-                ;
                 GlobalData.loesungen[2] = GlobalData.loesungen[2] + pos;
             }
         }

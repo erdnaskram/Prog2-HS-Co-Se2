@@ -8,34 +8,34 @@ public class Texte
         }
 
         // Abbruchtext
-        private static String abbruch = "\t(Zum Beenden \"exit\" eingeben.)";
+        private static final String abbruch = "\t(Zum Beenden \"exit\" eingeben.)";
 
         // Menu
-        private static String menuText = "Willkommen beim Escape Room Spiel der Hochschule Coburg\n\n"
+        private static final String menuText = "Willkommen beim Escape Room Spiel der Hochschule Coburg\n\n"
                         + "1 - Neues Spiel\n" + "2 - Optionen\n" + "3 - Credits\n" + "4 - Spiel Beenden"
                         + "\nZahl eingeben und mit \"ENTER\" bestätigen.";
-        private static String fehler404 = "Fehler 404\nYour brain was not found again.\n";
-        private static String zurueckZumMenue = "Mit \"ENTER\" zurück zum Menu";
-        private static String credits = "Lead Developer:\t\tChristian Rähder"
+        private static final String fehler404 = "Fehler 404\nYour brain was not found again.\n";
+        private static final String zurueckZumMenue = "Mit \"ENTER\" zurück zum Menu";
+        private static final String credits = "Lead Developer:\t\tChristian Rähder"
                         + "\nHead of Development:\tChristoph Marks" + "\nLead Level Designer:\tAlexej Hermann"
                         + "\nMascot & Presenter:\tDimitri Stoppel\n";
 
         // Einleitung
-        private static String intro = "Willkommen an der Hochschule Coburg.\nSie sind Student im Kurs Programmieren. "
+        private static final String intro = "Willkommen an der Hochschule Coburg.\nSie sind Student im Kurs Programmieren. "
                         + "Nach Ihrer Präsenzstunde in Programmieren haben Sie im Labor leider etwas vergessen\nund wollten dies noch schnell holen. "
                         + "Als Sie das Labor wieder verlassen wollten, stellen Sie fest, dass die Tür zu ist.\n"
                         + "Leider kennen Sie die Zahlenkombination nicht, um die Tür zu öffnen.\nSie erinnern sich aber, dass Ihr Professor erwähnt hatte, dass die Kombination im Raum versteckt ist. ";
 
         // Rätsel 1
-        private static String startR1 = "\n\nSie durchsuchen den Raum und finden als erstes ein verdächtiges Poster bezüglich Fundamentaler Datentypen.\n"
+        private static final String startR1 = "\n\nSie durchsuchen den Raum und finden als erstes ein verdächtiges Poster bezüglich Fundamentaler Datentypen.\n"
                         + "Auf diesem stellen Sie fest das alle Längen (in Bit) angegeben sind außer einem.";
-        private static String hilfeR1 = "Wie war nochmal die Bitlänge dieses Datentyps?";
-        private static String codeR1 = "codeR1";
-        private static String falschR1 = "Leider falsch, versuchen Sie es erneut.";
-        private static String richtigR1 = "Gut gemacht!";
+        private static final String hilfeR1 = "Wie war nochmal die Bitlänge dieses Datentyps?";
+        private static final String codeR1 = "codeR1";
+        private static final String falschR1 = "Leider falsch, versuchen Sie es erneut.";
+        private static final String richtigR1 = "Gut gemacht!";
 
         // Rätsel 2
-        private static String startR2 = "Die erste Zahl wäre damit gefunden. Denken Sie daran der Professer hat immer \"Post it\" an seinem Monitor "
+        private static final String startR2 = "Die erste Zahl wäre damit gefunden. Denken Sie daran der Professer hat immer \"Post it\" an seinem Monitor "
                         + "im Labor damit wichtiges nicht verloren geht.\nAls Sie den Arbeitsplatz des Professors untersuchen sticht Ihnen ein besonderes \"Post it\" ins Auge.\n"
                         + "Auf diesem sehen Sie folgende Anweisung:\n\n"
                         + "\n+------------------------------------------+\n"
@@ -51,19 +51,19 @@ public class Texte
                         + "|    System.out.println(\"42\");             |\n"
                         + "+------------------------------------------+\n\n"
                         + "Was wird auf der Konsole ausgegeben?\t\t";
-        private static String hilfeR2 = "hilfeR2";
-        private static String codeR2 = "codeR2";
-        private static String falschR2 = "Schade, knapp daneben ist auch vorbei...";
-        private static String richtigR2 = "Richtig! Weiter so!";
+        private static final String hilfeR2 = "hilfeR2";
+        private static final String codeR2 = "codeR2";
+        private static final String falschR2 = "Schade, knapp daneben ist auch vorbei...";
+        private static final String richtigR2 = "Richtig! Weiter so!";
 
         // Rätsel 3
-        private static String startR3 = "Zwei benötigte Zahlen haben Sie schon einmal gefunden.\n"
+        private static final String startR3 = "Zwei benötigte Zahlen haben Sie schon einmal gefunden.\n"
                         + "Als nächstes öffnen Sie die Schränke des Labors und finden darin ein SteckPuzzel.\n";
-        private static String hilfeR3 = "\nDabei fällt Ihnen als erfahrener Programmierer sofort auf, "
+        private static final String hilfeR3 = "\nDabei fällt Ihnen als erfahrener Programmierer sofort auf, "
                         + "dass die Anordnung nicht korrekt ist!\nWie ist die richtige Typkonvertierung von fundamentalen Datentypen anzuordnen?";
-        private static String eingabeAufforderungR3 = "\nTragen Sie die Nummern nacheinander zusammen ein (z.B.\"123456\" und drücken dann \"ENTER\".\t\t";
-        private static String falschR3 = "Netter Versuch, aber nicht ganz richtig.";
-        private static String richtigR3 = "Super. Fast fertig...";
+        private static final String eingabeAufforderungR3 = "\nTragen Sie die Nummern nacheinander zusammen ein (z.B.\"123456\" und drücken dann \"ENTER\".\t\t";
+        private static final String falschR3 = "Netter Versuch, aber nicht ganz richtig.";
+        private static final String richtigR3 = "Super. Fast fertig...";
 
         // Rätsel 4 zusätzliches Rätsel hier einfügen
         // private static String startR4 = "\n\nPlatzhalter für zusätzliches Rätsel"
@@ -73,16 +73,16 @@ public class Texte
         // private static String richtigR4 = "richtig";
 
         // Passwort Eingabe
-        private static String startEnde = "\n\nErleichtert und sichtbar ermüdet von den Strapazen machen Sie sich auf zum Türschloss.\n"
+        private static final String startEnde = "\n\nErleichtert und sichtbar ermüdet von den Strapazen machen Sie sich auf zum Türschloss.\n"
                         + "An der Tür angekommen ist es nun endlich soweit diesem Labor zu entkommen.\n\n"
                         + "Addiere Sie die Zahlen zusammen und konvertiere sie in eine Hex Zahl!\n"
                         + "Bitte geben Sie das korrekte Passwort ein;\n";
-        private static String eingabeAufforderungEnde = "Ausgabe:";
-        private static String falschEnde = "Uff so knapp.... Versuche es erneut.";
-        private static String richtigEnde = "Saubääääärrrrrr...";
+        private static final String eingabeAufforderungEnde = "Ausgabe:";
+        private static final String falschEnde = "Uff so knapp.... Versuche es erneut.";
+        private static final String richtigEnde = "Saubääääärrrrrr...";
 
         // Epilog
-        private static String epilog = "\n\nNachdem Sie die Zahlenkombination eingegeben haben, hören Sie wie sich das Schloss entriegelt.\n"
+        private static final String epilog = "\n\nNachdem Sie die Zahlenkombination eingegeben haben, hören Sie wie sich das Schloss entriegelt.\n"
                         + "Sie öffnen die Tür und freuen sich endlich nach Hause gehen zu können, jedoch steht der Dozent hinter der Tür.\n"
                         + "Verwundert sieht er Sie an und fragt: \"Was machen Sie da?\"\nDaraufhin erklären Sie ihm die Situation und wie Sie die Rätsel gemeistert haben.\n"
                         + "Mit einem Schulterklopfen sagt er: \"Anscheinend haben Sie ihr Material gelernt. Jetzt gehen Sie nach Hause Sie haben es sich verdient\".\n"

@@ -3,7 +3,7 @@ package kap6.ProgU6_1;
 public class Ort<E> {
 
     private E element = null;
-    private int ortsId;
+    private final int ortsId;
 
     public Ort (int ortsId){
         this.ortsId = ortsId;

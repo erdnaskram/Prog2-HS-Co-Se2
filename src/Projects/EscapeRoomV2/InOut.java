@@ -105,7 +105,7 @@ public class InOut
             String tmpString;
             tmpString = sc.nextLine();
 
-            if (tmpString.toLowerCase().equals("exit"))
+            if (tmpString.equalsIgnoreCase("exit"))
             {
                 System.exit(0);
             }

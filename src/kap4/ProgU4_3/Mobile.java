@@ -2,9 +2,9 @@ package kap4.ProgU4_3;
 
 public interface Mobile {
 
-    public double weight();
+    double weight();
 
-    public String toString();
+    String toString();
 
     void balance();
 }

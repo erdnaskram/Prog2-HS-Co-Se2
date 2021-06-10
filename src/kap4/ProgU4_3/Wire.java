@@ -2,8 +2,8 @@ package kap4.ProgU4_3;
 
 public class Wire implements Mobile{
 
-    private Mobile mobile1;
-    private Mobile mobile2;
+    private final Mobile mobile1;
+    private final Mobile mobile2;
     private double länge1;
     private double länge2;
 

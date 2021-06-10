@@ -109,7 +109,7 @@ public class Riddle {
                 do {
                     pos = rn.nextInt(6);
                 } while (raetsel[pos] != null);
-                raetsel[pos] = orginal[i];;
+                raetsel[pos] = orginal[i];
                 loesung = loesung + pos;
             }
 

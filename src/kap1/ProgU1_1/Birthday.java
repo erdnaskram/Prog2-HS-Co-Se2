@@ -5,7 +5,7 @@ import java.text.ParseException;
 
 public class Birthday {
 
-    private String theDay;
+    private final String theDay;
 
     public Birthday(String s) throws InvalidBirthdayException {
         checkDay(s);
