@@ -1,4 +1,4 @@
-﻿package Uebungen.kap6.ProgU6_1;
+package Uebungen.kap6.ProgU6_1;
 
 public class Ort<E> {
 

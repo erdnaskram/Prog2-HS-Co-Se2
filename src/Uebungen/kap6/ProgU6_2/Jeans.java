@@ -1,7 +1,7 @@
 package Uebungen.kap6.ProgU6_2;
 
 
-public class Jeans extends Kleidungsstück{
+public class Jeans extends Kleidungsstueck {
 	
 	private static final String  typId="567407";
 	protected int schrittlänge;

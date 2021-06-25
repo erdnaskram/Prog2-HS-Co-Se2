@@ -1,7 +1,7 @@
 package Uebungen.kap6.ProgU6_2;
 
 
-public class Jacke extends Kleidungsstück {
+public class Jacke extends Kleidungsstueck {
 	
 	private static final String  typId="777777";
 	protected int wassersaeule;

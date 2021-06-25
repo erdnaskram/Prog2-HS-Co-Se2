@@ -2,7 +2,7 @@ package Uebungen.kap9.ProgU9_3;
 
 import Uebungen.kap6.ProgU6_2.Artikel;
 import Uebungen.kap6.ProgU6_2.Jeans;
-import Uebungen.kap6.ProgU6_2.Kleidungsstück;
+import Uebungen.kap6.ProgU6_2.Kleidungsstueck;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ public class ArtikelverwaltungsTest {
 //        scanneDatei(dateiName);
 //        ladeDatei(dateiName);
         LinkedList<Artikel> articles = new LinkedList<>();
-        Jeans j = new Jeans(38, Kleidungsstück.Farbe.GRAU, "Levis", 440);
+        Jeans j = new Jeans(38, Kleidungsstueck.Farbe.GRAU, "Levis", 440);
         articles.add(j);
         write(dateiName, articles);
 
