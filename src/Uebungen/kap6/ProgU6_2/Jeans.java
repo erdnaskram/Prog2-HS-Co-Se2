@@ -13,6 +13,7 @@ public class Jeans extends Kleidungsstueck {
 	
 	public Jeans(int groesse, Farbe f, String bezeichnung, int schrittlänge) {
 		super(groesse,f,bezeichnung);
+		this.schrittlänge = schrittlänge;
 		artNr = typId + super.groesse;
 	}
 	
@@ -21,6 +22,6 @@ public class Jeans extends Kleidungsstueck {
 	}
 
 	public String toString() {
-		return artNr +  " " + super.toString();
+		return artNr +  " " + super.toString() + " " + schrittlänge;
 	}
 }

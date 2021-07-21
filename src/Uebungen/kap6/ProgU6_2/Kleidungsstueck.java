@@ -1,4 +1,4 @@
-﻿package Uebungen.kap6.ProgU6_2;
+package Uebungen.kap6.ProgU6_2;
 
 public abstract class Kleidungsstueck implements Artikel {
     public enum Farbe {SCHWARZ, GRÜN, ROT, BLAU, GRAU}
@@ -28,7 +28,7 @@ public abstract class Kleidungsstueck implements Artikel {
     }
 
     public String toString() {
-        return "" + bezeichnung + " " + groesse + " " + farbe;
+        return bezeichnung + " " + groesse + " " + farbe;
 
     }
 

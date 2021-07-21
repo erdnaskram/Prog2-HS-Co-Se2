@@ -32,7 +32,7 @@ public class Artikellager<E extends Artikel> {
         boolean sucess = false;
         do {
             if (!orte[i].istBelegt()) {
-                orte[i].hinzufügen(e);
+                orte[i].hinzufuegen(e);
                 sucess = true;
             }
             i++;

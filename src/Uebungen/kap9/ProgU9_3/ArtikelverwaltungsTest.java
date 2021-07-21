@@ -1,8 +1,6 @@
 package Uebungen.kap9.ProgU9_3;
 
 import Uebungen.kap6.ProgU6_2.Artikel;
-import Uebungen.kap6.ProgU6_2.Jeans;
-import Uebungen.kap6.ProgU6_2.Kleidungsstueck;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -15,12 +13,14 @@ public class ArtikelverwaltungsTest {
 
     public static void main(String[] args) {
         String dateiName = "/Users/ap7w0/git/Java/Prog2-HS-Co-Se2/src/Uebungen/kap9/ProgU9_3/Artikel.txt";
+        Artikelverwaltung av = new Artikelverwaltung();
+        av.load(dateiName);
 //        scanneDatei(dateiName);
 //        ladeDatei(dateiName);
-        LinkedList<Artikel> articles = new LinkedList<>();
-        Jeans j = new Jeans(38, Kleidungsstueck.Farbe.GRAU, "Levis", 440);
-        articles.add(j);
-        write(dateiName, articles);
+//        LinkedList<Artikel> articles = new LinkedList<>();
+//        Jeans j = new Jeans(38, Kleidungsstueck.Farbe.GRAU, "Levis", 440);
+//        articles.add(j);
+//        write(dateiName, articles);
 
     }
 

@@ -15,7 +15,7 @@ public class Ort<E> {
         return ret;
     }
 
-    public void hinzufügen(E e){
+    public void hinzufuegen(E e){
         if (!istBelegt()){
             element = e;
         }

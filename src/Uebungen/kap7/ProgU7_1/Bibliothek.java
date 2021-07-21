@@ -11,7 +11,7 @@ public class Bibliothek {
         this.coll = coll;
     }
 
-    public boolean einfügen(Book book) {
+    public boolean einfuegen(Book book) {
         if (book != null){
             coll.add(book);
             return true;

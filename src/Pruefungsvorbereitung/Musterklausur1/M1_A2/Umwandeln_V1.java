@@ -2,7 +2,7 @@ package Pruefungsvorbereitung.Musterklausur1.M1_A2;
 
 import java.io.*;
 
-public class Umwandeln2 {
+public class Umwandeln_V1 {
 
     public static void main(String[] args) {
 
@@ -11,12 +11,9 @@ public class Umwandeln2 {
             System.exit(1);
         }
 
-        BufferedReader br = null;
-        BufferedWriter bw = null;
+        try (BufferedReader br = new BufferedReader(new FileReader(args[0]));
+             BufferedWriter bw = new BufferedWriter(new FileWriter(args[1]));) {
 
-        try {
-            br = new BufferedReader(new FileReader(args[0]));
-            bw = new BufferedWriter(new FileWriter(args[0]));
 
             for (int c; (c= br.read()) != -1;){
                 char cc = (char)c;
@@ -36,17 +33,5 @@ public class Umwandeln2 {
             e.printStackTrace();
         }
 
-        finally {
-            try {
-                br.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            try {
-                bw.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
     }
 }

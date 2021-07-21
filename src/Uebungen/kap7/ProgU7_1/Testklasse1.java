@@ -9,17 +9,17 @@ public class Testklasse1 {
         ArrayList<Book> buecherSammlung = new ArrayList<>();
         Bibliothek bibliothek = new Bibliothek(buecherSammlung);
 
-        bibliothek.einfügen(new Book("Reinhard Schiedermeier","Java Praktikum", "9784898645133"));
-        bibliothek.einfügen(new Book("Harvey Deitel","How to program Java", "01303451517"));
-        bibliothek.einfügen(new Book("Bertrand Meyer","Object Oriented Software Construction", "0136290310"));
-        bibliothek.einfügen(new Book("Bertrand Meyer","Software Engineering Approaches for Offshore and Outsourced Development", "9783642018558"));
-        bibliothek.einfügen(new Book("Kathy Sierra","Java von Kopf bis Fuss", "9783897214484"));
-        bibliothek.einfügen(new Book("Reinhard Schiedermeier","Java Praktikum", "9784898645133"));
-        bibliothek.einfügen(new Book("Harvey Deitel","How to program Java", "01303451517"));
-        bibliothek.einfügen(new Book("Bertrand Meyer","Object Oriented Software Construction", "0136290310"));
-        bibliothek.einfügen(new Book("Bertrand Meyer","Software Engineering Approaches for Offshore and Outsourced Development", "9783642018558"));
-        bibliothek.einfügen(new Book("Kathy Sierra","Java von Kopf bis Fuss", "9783897214484"));
-        bibliothek.einfügen(new Book("Mark Utting","Pratical Model based Testing", "9780123725011"));
+        bibliothek.einfuegen(new Book("Reinhard Schiedermeier","Java Praktikum", "9784898645133"));
+        bibliothek.einfuegen(new Book("Harvey Deitel","How to program Java", "01303451517"));
+        bibliothek.einfuegen(new Book("Bertrand Meyer","Object Oriented Software Construction", "0136290310"));
+        bibliothek.einfuegen(new Book("Bertrand Meyer","Software Engineering Approaches for Offshore and Outsourced Development", "9783642018558"));
+        bibliothek.einfuegen(new Book("Kathy Sierra","Java von Kopf bis Fuss", "9783897214484"));
+        bibliothek.einfuegen(new Book("Reinhard Schiedermeier","Java Praktikum", "9784898645133"));
+        bibliothek.einfuegen(new Book("Harvey Deitel","How to program Java", "01303451517"));
+        bibliothek.einfuegen(new Book("Bertrand Meyer","Object Oriented Software Construction", "0136290310"));
+        bibliothek.einfuegen(new Book("Bertrand Meyer","Software Engineering Approaches for Offshore and Outsourced Development", "9783642018558"));
+        bibliothek.einfuegen(new Book("Kathy Sierra","Java von Kopf bis Fuss", "9783897214484"));
+        bibliothek.einfuegen(new Book("Mark Utting","Pratical Model based Testing", "9780123725011"));
 
         System.out.println(bibliothek);
         System.out.println("Test---------------------------------------------------------------------");
