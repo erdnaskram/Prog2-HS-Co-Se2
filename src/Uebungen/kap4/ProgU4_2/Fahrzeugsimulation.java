@@ -41,7 +41,7 @@ public class Fahrzeugsimulation {
             }
         }
 
-        System.out.println("\n\n20 Minuten später:");
+        System.out.println("\n\n20 Minuten spaeter:");
 
         for (Fahrzeug fahrzeug : Fahrzeuge) {
             if (fahrzeug.getClass() == LKW.class) {
